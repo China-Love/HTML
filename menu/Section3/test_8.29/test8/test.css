@@ -1,0 +1,78 @@
+
+/*第一种*/
+*
+{
+    margin: 0;
+    padding: 0;
+} 
+
+div
+{
+  position: absolute;
+  background-color: rgb(193, 193, 193);
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+h2
+{
+    margin: 20px;
+}
+p
+{
+    margin: 20px;
+} 
+
+
+
+
+/*  第二种*/
+/* .father{
+    position:fixed;
+    width:20%;
+    top: 40%;
+    left: 40%;
+    height: 20%;
+    background-color:rgba(0,0,0,0.7);
+    vertical-align: middle;
+    text-align: center;
+}
+.son{
+    position: absolute;
+    width:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:100%;
+    margin:auto;
+}
+h2
+{
+    margin: 20px;
+}
+p
+{
+    margin: 20px;
+}   */
+
+
+/* .block {
+    text-align: center;
+ } 
+
+.block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; 
+}
+
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    background: rgb(193, 193, 193);
+    width: 25%;
+}  */

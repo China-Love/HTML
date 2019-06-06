@@ -1,0 +1,15 @@
+<!--pages/histroy/history.wxml-->
+<view class="mainview">
+    <view class='li'  wx:for="{{list}}" wx:for-index="idx"  wx:key="historylist" wx:for-item="item"  hover-class="view-hover"  >
+        <view class='fromli' bindlongtap='copyfromtext' data-index="{{idx}}"> 
+          <view class='fromli-t'>【原文】：</view >
+          <view class='fromli-c'>{{item.from}}</view>
+        </view>
+
+        <view class='toli' bindlongtap='copytotext' data-index="{{idx}}">
+          <view class='toli-t'>【译文】：</view>
+          <view class='toli-c'>{{item.to}}</view>
+         </view>
+      </view>
+</view>
+

@@ -1,0 +1,82 @@
+.container>li .img{
+    height: 100px;
+    width: 70px;
+    background:white;
+    margin:10px;
+}
+
+.text{
+    margin: 10px 10px 10px 0;
+    flex: 1;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #999;
+}
+.text>h3{
+   font-size: 16px;
+   color: #333;
+}
+
+ul{
+    padding: 10px;
+}
+
+li{
+   display: flex;
+   border-bottom: 1px solid #ddd;
+}
+
+.grade,.grade::before{
+    font-family: iconfont;
+    content: '\e610';
+    color: rgb(251, 63, 27);
+
+    
+}
+
+.loading>span{
+    display: inline-block;
+    font-family: iconfont;
+    font-size: 24px;
+    color:  #999;
+    animation: rotate 1.3s linear infinite;
+}
+
+.loading {
+    text-align: center;
+   
+}
+
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.searchbar{
+    border-bottom:1px solid #ddd;
+    margin: 10px;
+}
+
+.searchbtn {
+    float: right;
+    width: 60px;
+    height: 40px;
+    background: rgb(251, 63, 27);
+    color: white;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input{
+    height: 40px;
+    width: calc(100% - 80px);
+    margin: 10px 0px 10px 0;
+    border: 1px solid #ddd ;
+    border-radius: 3px;
+    padding-left: 10px;
+    color: #333;
+}

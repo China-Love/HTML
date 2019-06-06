@@ -1,0 +1,79 @@
+.tab>div{
+    float: left;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 10px 20px;
+    background: rgba(129, 141, 142,0.5);
+    cursor: pointer;
+}
+.tab :last-child{
+    border-right: 1px solid gray;
+}
+
+.tab::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content>div{
+ 
+    border: 1px solid gray;
+    display: none;
+    height: 200px;
+    width: 500px;
+}
+
+.tab>.active {
+    background:white;
+}
+
+.content>.active {
+    display: block;
+}
+
+.content>div:nth-child(1){
+    background: green;
+}
+
+.content>div:nth-child(2){
+    background: yellow;
+}
+
+.content>div:nth-child(3){
+    background: burlywood;
+}
+.content>div:nth-child(4){
+    background: red;
+}
+
+.dom-demo{
+    margin-top: 50px;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 809817 */
+    src: url('https://at.alicdn.com/t/font_809817_k1zfexfrdi7.eot');
+    src: url('https://at.alicdn.com/t/font_809817_k1zfexfrdi7.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_809817_k1zfexfrdi7.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_809817_k1zfexfrdi7.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_809817_k1zfexfrdi7.svg#iconfont') format('svg');
+  }
+
+.on-off-btn::before {
+    font-family: iconfont;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+    content: '\e76a';
+}
+
+
+.on-off-btn.on::before {
+   content: '\e68a';
+}

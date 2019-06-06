@@ -1,0 +1,29 @@
+.div{
+    box-shadow: 1px 1px 1px 1px  gray;
+    height: 120px;
+    padding: 20px;
+}
+
+.divblack {
+    background: black;
+}
+
+.hellowhite{
+  color: white;
+}
+
+.wordwhite{
+  color: white;
+}
+
+.img-preview {
+  display: inline-block;
+  /* transform:rotate(45deg);  */
+  /* transform-origin: top; */
+  /* transform: translate(100px,20px); */
+  /* transform: scale(1.2,1.2); */
+     transform: skew(2deg,5deg);
+}
+
+
+

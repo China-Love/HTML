@@ -1,0 +1,263 @@
+*{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.clearfix:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.section-header{
+    width: 100%;
+    height: 10px;
+    background: rgb(246, 247, 248);
+}
+
+.section-one{
+    position: relative;
+	overflow: hidden; 
+    width: 100%;
+    height: 200px; 
+}
+.section-two{
+    margin-top: 10px;
+    width:100%;
+    height: 100px;
+}
+.section-three{
+    margin-top: 10px;
+    width:100%;
+    height: 200px;
+}
+.section-four{
+    margin-top: 10px;
+    width:100%;
+    height:29px;
+}
+.headtitle{
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    font-size:18px;
+    max-height: 40px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+    line-height:20px;
+    width: calc(100% - 30px);
+   
+ }
+ .jishou{
+    display: inline-block;
+    width:30px;
+    height:18px;
+    background:rgb(255, 61, 28);
+    font-size: 10px;
+    text-align: center;
+    color:white;
+    line-height: 18px;
+ }
+.headecontent{
+    padding: 5px 15px 5px 15px;
+    width: calc(100% - 30px);
+}
+.money{
+   
+    font-size:20px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(255,61,28,1);
+    
+}
+.hs-money{
+    margin-left: 30px;
+    width:152px;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    color:rgba(153,153,153,1);
+}
+.type{
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+    width:50px;
+    height:22px;
+    background:rgb(255, 235, 232);
+    border-radius:4px;
+    font-size: 12px;
+    text-align: center;
+    color:rgba(255,61,28,1);
+    line-height: 22px;
+}
+.money>span{
+    width:23px;
+    height:22px;
+    font-size:12px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,61,28,1);
+  
+}
+
+
+.header{
+    margin-left: 15px;
+    width:calc(100% - 30px);
+    height:29px;
+    font-size:14px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+    line-height:14px;
+}
+.line{
+    margin-left: 15px;
+    width:calc(100% - 30px);
+    height:1px;
+    background:rgba(238,238,238,1);
+}
+.blueline{
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    left: 0;
+    right: 0;
+    width:30px;
+    height:2px;
+    background:rgba(88,145,255,1);    
+}
+.describe{
+    width:calc(100% - 30px);
+    height:113px;
+    font-size:13px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(44,44,44,1);
+    line-height:20px;
+    padding: 15px;
+}
+
+ul{   
+    margin-top: 10px;
+    margin-right: -20px;   
+    overflow: hidden;   
+    height: 400px;
+}   
+li{   
+    list-style: none;
+    float: left;   
+    height: 50px;   
+    width: 33.1%;   
+    padding-right: 20px;   
+    box-sizing: border-box;   
+    background-clip: content-box; 
+   
+}
+li:last-child{   
+    width: 100%;   
+}
+.content{
+    height:25px;
+    font-size:13px;
+    font-family:PingFang-SC-Regular;
+    color:rgba(44,44,44,1);
+    padding-left: 15px;
+}
+
+.atitle{
+    padding-left: 15px;
+    height:25px;
+    font-family:PingFang-SC-Regular;
+    font-size:12px;
+    color:rgba(153,153,153,1);
+   
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+
+#list
+{   position: absolute;
+    z-index: 1;
+    width: 4200px; 
+    height: 400px;
+}
+#list img
+{
+    float: left;
+    width: 600px;
+}
+#buttons
+{
+    position: absolute; 
+    z-index: 2; 
+    bottom: 20px; 
+    left: calc(100%/2 - 40px);
+    width: 120px;
+     height: 10px;
+}
+#buttons span
+{   
+    float: left; 
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+
+    cursor: pointer; 
+    border: 1px solid #fff;
+    border-radius: 50%; 
+    background: #333;
+}
+#buttons .on
+{
+    background: orangered;
+}
+.arrow
+{font-size: 36px; 
+	font-weight: bold; 
+	line-height: 39px;
+	position: absolute; 
+	z-index: 2; 
+	top: 180px; 
+	display: none;
+	 width: 40px; 
+	 height: 40px;  
+
+    cursor: pointer; 
+    text-align: center; 
+    color: #fff;
+    background-color: RGBA(0,0,0,.3);
+}
+.arrow:hover
+{
+    background-color: RGBA(0,0,0,.7);
+}
+#container:hover .arrow
+{
+    display: block;
+}
+#prev
+{
+    left: 20px;
+}
+#next
+{
+    right: 20px;
+}
+
+.block{
+    width: 800px;
+    height:auto;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+  

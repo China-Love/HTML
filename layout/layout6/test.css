@@ -1,0 +1,22 @@
+div
+{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ff0000;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+}
+div::before
+{
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+img
+{
+   width: 100px;
+   height: 100px;
+   vertical-align: middle;
+}

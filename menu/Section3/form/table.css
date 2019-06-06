@@ -1,0 +1,44 @@
+.onetable
+{
+    border: 1px solid rgb(193, 193, 193);
+    width: 600px;
+    height: 220px;
+    margin: 20px auto;
+    border-collapse: collapse;
+   
+}
+.onetable tr:first-child
+{
+    background-color: rgb(63, 161, 63);
+    color: white;
+    font-weight: bold;
+}
+.onetable tr:nth-child(2n)
+{
+    background-color: rgb(237, 237, 237);
+}
+.onetable tr td
+{
+    padding-left: 10px;
+}
+
+.twotable
+{
+    width: 600px;
+    height: 220px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.twotable tr:first-child
+{
+    font-weight: bold;
+}
+.twotable tr:nth-child(2n)
+{
+    background-color: rgb(237, 237, 237);
+}
+.twotable tr td
+{
+    padding-left: 10px;
+}

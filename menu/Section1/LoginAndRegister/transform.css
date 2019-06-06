@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,.flip-container {
+    height: 100%;
+}
+a {
+   text-decoration: none;
+   border: none;
+}
+button {
+    border:0px;
+    background-color:transparent;
+    outline: none;
+}
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 821537 */
+    src: url('https://at.alicdn.com/t/font_821537_igjh90f4na.eot');
+    src: url('https://at.alicdn.com/t/font_821537_igjh90f4na.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_821537_igjh90f4na.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_821537_igjh90f4na.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_821537_igjh90f4na.svg#iconfont') format('svg');
+  }
+
+
+
+.flip-container {
+    position: relative;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background:white url(http://book.jirengu.com/fe/code/projects/HungoouRadio/imgs/bg.jpg) center center no-repeat ;
+    background-size: cover; 
+} 
+.loginiconfont {
+  font-family: iconfont;
+  position: absolute;
+  top: 30px;
+  font-size: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+}
+.deleteiconfont {
+    font-family: iconfont;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.btnafter::after {
+    text-align: center;
+    content:"";
+    width: 40px;
+    height: 2px;
+    background: black;
+    display:block;
+    margin-top: 3px;
+    clear:both;
+}
+
+
+.btndiv> button{
+    display: inline-block;
+    width: 40px ;
+    height: 30px;
+    margin: 20px 10px;
+    color: rgb(52, 52, 52);
+    font-size: 18px;
+}
+
+/* login */
+input[type="text"],input[type="password"]{
+   
+    padding-left: 40px;
+    height: 35px;
+    width: 300px;
+    margin: 10px;
+}
+
+.nameimg {
+    z-index: 2;
+    display: inline-block;
+    font-family: iconfont;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: black;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.erroralert {
+    height: 0px;
+    width: 100%;
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 8px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.passwordimg {
+    z-index: 2;
+    display: inline-block;
+    font-family: iconfont;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.surepasswordimg{
+    z-index: 2;
+    display: inline-block;
+    font-family: iconfont;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+input[type="submit"]{
+    display: block;
+    border-radius: 2px;
+    width: 60px;
+    height: 30px;
+    background: white;
+    margin: 15px 29px;
+}
+.flipper {
+   /* ??????? */
+}
+.btndiv{
+    text-align: center;
+}
+.front ,.back{
+    text-align: center;
+    margin: 15px auto 20px auto;
+
+    -webkit-backface-visibility:hidden;	/*Chrome 和 Safari */
+    -moz-backface-visibility:hidden; 	/*Firefox */
+    -ms-backface-visibility:hidden; 	/*Internet Explorer */
+    backface-visibility: hidden;  
+    
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 400px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 3px 4px 5px rgba(0,0,0,0.2);
+   
+}
+.transform-front .front,.transform-back .back{
+    transform:translate(-50%,-50%) rotateY(0deg);
+    transition: 1s;
+    transform-style: preserve-3d; 
+}
+.transform-front .back,.transform-back .front{
+    transform:translate(-50%,-50%) rotateY(180deg);
+    transition: 1s;
+    transform-style: preserve-3d; 
+}

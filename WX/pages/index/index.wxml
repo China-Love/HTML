@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='category'> <view class='category-c' bindtap="selectlanguage">译成：{{language}}</view> </view>
+  <view class='content'>
+  
+   <textarea placeholder="请输入要翻译的文本" maxlength="{-1}" placeholder-style="color:#909090;" value="{{textareavalue}}"   bindblur='textareabindblur' />
+    <view class='delete' style="display:{{deletedisplay}}" bindtap="deletevoid"></view>
+   <view class='translation-title'>译文：</view>
+   <view class='translation-content' bindlongtap='copyText'>{{translation}}</view>
+  </view>
+  <view class='copyright'>©️2018 Powered by 谷歌翻译</view>
+</view>

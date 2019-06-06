@@ -1,0 +1,44 @@
+.superdiv
+{
+    width: 600px;
+    margin: 0 auto;
+}
+.btn
+{
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 16px;
+     /* cursor: pointer; */
+    transition: all .3s; 
+}
+.btn1
+{
+    background-color: #009688;
+    color: white;
+}
+.btn2
+{
+    background-color: #ffeb3b;
+
+}
+.btn3
+{
+    background-color: #ff9800;
+  
+}
+.btn4
+{
+    background-color: #f44336;
+    color: white;
+}
+.btn5
+{
+    background-color: #4CAF50;
+    color: white;
+}
+.btn:hover
+{
+    /* box-shadow: 3px 5px 10px #888888; */
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}

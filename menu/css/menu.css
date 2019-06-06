@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+li {
+    background: white;
+    margin-top: 10px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(129, 141, 142);
+    font-size: 14px;
+}
+ul {
+  list-style:none;
+}
+#nav {
+    float: left;
+    width: 250px;
+    border-top:  1px solid white;
+    border-bottom:  1px solid white;
+    border-right:0.5px solid rgb(237, 237, 237);
+}
+
+span {
+    color:rgb(129, 141, 142);
+    font-size: 16px;
+}
+
+.menutitle{
+    color: rgb(129, 141, 142);
+    font-size: 18px;
+}
+
+
+
+

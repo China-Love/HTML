@@ -1,0 +1,121 @@
+
+.playerbox{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    background: #ddd;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:rgb(255, 255, 255);
+    border: 1px solid rgb(246, 246, 246);
+}
+.player{
+  height: 130px;
+  background:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+.musiclist{
+    height: 370px;
+    background:none;
+    overflow: auto;
+    cursor: pointer;
+}
+span{
+    font-family: iconfont;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.line{
+    position: relative;
+    margin: 10px 10px ;
+}
+
+.linegray{
+    width: 280px;
+    height: 3px;
+    background: rgb(181, 181, 181);
+}
+
+.lineprogress{
+    width: 0px;
+    height: 3px;
+    background: rgb(226, 131, 132);
+    position: absolute;
+    top:0px;
+}
+
+.time{
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+
+.playerbtn{
+   
+    width: 35%;
+    margin-left: 10px;
+    float: left;
+    margin-top: 50px;
+}
+
+.songhead{
+    
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+}
+
+.author{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.songname{
+    margin-top: -5px;
+}
+.playing>div>p:nth-child(1)::after{
+
+    content: '\e62d';
+    font-family: iconfont;
+    margin-left: 5px;
+   
+}
+li>img{
+    width: 36px;
+    height: 36px;
+    margin: 7px;
+    float: left;
+}
+
+li>p:nth-child(2) {
+    float: right;
+    text-align: center;
+    margin: 7px 7px  7px 7px;
+    line-height: 36px;
+    font-size: 12px;
+    width: 40px
+}
+
+li>div{
+    margin: 7px 50px  0px 50px;
+    line-height: 43px;
+    font-size: 14px;
+}
+
+li>div>p:nth-child(1){
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+}
+li>div>p:nth-child(2){
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+li:hover{
+    background: rgb(245, 245, 245);
+}
+

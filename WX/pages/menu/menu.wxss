@@ -1,0 +1,28 @@
+/* pages/menu/menu.wxss */
+.scroll-view{
+  padding:0rpx 30rpx;
+}
+.li{
+  width: calc(100% -  60rpx);
+  font-size: 30rpx;
+  padding:20rpx 0; 
+  border-bottom: 1rpx solid #C4CBDE;
+}
+.section__title{
+  font-size: 28rpx;
+  padding: 20rpx 30rpx;
+  color: #909090;
+  border-bottom: 1rpx solid #C4CBDE;
+}
+.view-hover{
+  background:#F2F7FE;
+}
+.taptag{
+  float: right;
+  
+}
+.taptag:after{
+  content: '\e659';
+  font-family: iconfont;
+  font-size: 30rpx;
+}

@@ -1,0 +1,13 @@
+<!--pages/menu/menu.wxml-->
+
+<view>
+
+    <view class="section__title">翻译成</view>
+    <view class="scroll-view"  style="width: 100%">
+      <view class='li' data-lang="{{item.lang}}" data-chs="{{item.chs}}" data-index="{{item.index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item"  bindtap='clicklanglist' hover-class="view-hover" >
+        <text>{{item.chs}}</text>
+        <text class='taptag' wx:if="{{index==tapindex}}"></text>
+      </view>
+    </view>
+  
+</view>

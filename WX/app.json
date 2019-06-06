@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history",
+    "pages/menu/menu"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#000",
+    "navigationBarTitleText": "在线翻译",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#262626"
+  },
+  "tabBar": {
+    "position": "top",
+    "color":"#2E2E2E",
+    "selectedColor":"#000",
+    "backgroundColor":"#fff",
+    "font-size":"12rpx",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ]
+  }
+}

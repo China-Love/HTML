@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, inital-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <link rel="stylesheet" href="transform.css">
+    <title>CompanyLogin</title>
+</head>
+<body>
+   
+    <div class="flip-container">
+         <a class="loginiconfont">&#xe600;</a>
+            <div class="flipper transform-front">
+                <div class="front">
+                    <!-- <div class="frontchlid"> -->
+                        <button class="deleteiconfont">&#xe6ac;</button>
+                        <div class="btndiv">
+                            <button class="logintop btnafter" href="">登录</button>
+                            <button class="registertop" href="">注册</button>
+                        </div>
+                        
+                        <p class="erroralert"></p>
+                        <form action="/demo/login">
+                            <div class="box">
+                                <input type="text" name="name" value="" tabindex="1" placeholder="用户名">
+                                <a class="nameimg" href="">&#xe64d;</a>
+                            </div>
+                            <div class="box">
+                                <input type="password" name="password" value="" tabindex="2" placeholder="密码">
+                                <a class="passwordimg" href="">&#xe6da;</a>
+                            </div>
+                            <input type="submit" class="loginbtn" value="登 录">
+                        </form> 
+                    <!-- </div> -->
+                </div>
+                <div class="back">
+                     <!-- <div class="backchlid"> -->
+                         <button class="deleteiconfont">&#xe6ac;</button>
+                         <div class="btndiv">
+                                <button class="logintop" href="">登录</button>
+                                <button class="registertop btnafter" href="">注册</button>
+                         </div>
+                         <p class="erroralert"></p>
+                        <form action="/demo/register">
+                            <div class="box">
+                                <input type="text" name="name" value="" tabindex="3" placeholder="输入用户名">
+                                <a class="nameimg" href="">&#xe64d;</a>
+                            </div>
+                            <div class="box">
+                                <input type="password" name="password" value="" tabindex="4" placeholder="输入密码">
+                                <a class="passwordimg" href="">&#xe6da;</a>
+                            </div>
+                           <div class="box">
+                            <input type="password" name="surepassword" value="" tabindex="5" placeholder="再次输入密码">
+                            <a class="surepasswordimg" href="">&#xe6da;</a>
+                           </div>
+                            <input type="submit" class="registerbtn" value="注 册">
+                        </form> 
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+    <script src="transform.js"></script>
+  
+</body>
+</html>

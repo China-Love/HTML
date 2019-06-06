@@ -1,0 +1,38 @@
+.wrapper {
+  width: 250px;
+  height: 250px;
+  margin: 50px auto;
+  background: #257;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgChild img{
+  width: 250px;
+  height: 250px;
+  margin: 50px auto;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child img{
+  width: 200px;
+  border-radius: 50%;
+  animation: run 10s infinite linear forwards;
+}
+
+.child img.paused {
+  animation-play-state:paused;
+}
+
+@keyframes run {
+ from {
+   transform: rotate(0deg);
+ }
+  to {
+   transform: rotate(360deg);
+  }
+};

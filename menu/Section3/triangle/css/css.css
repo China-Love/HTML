@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.one
+{
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid red;
+  border-top: 30px solid blue;
+  border-right: 30px solid yellow;
+  border-bottom: 30px solid green;
+  margin: 10px auto;
+}
+.two
+{
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid  #FFF;
+  border-top: 30px solid blue;
+  border-right: 30px solid #FFF;
+  border-bottom: 30px solid #FFF;
+  margin: 10px auto;
+}
+.three
+{
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid  red;
+  border-top: 30px solid #FFF;
+  border-right: 30px solid #FFF;
+  border-bottom: 30px solid #FFF;
+  margin: 10px auto;
+}
+.four
+{
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid  #FFF;
+  border-top: 30px solid #FFF;
+  border-right: 30px solid yellow;
+  border-bottom: 30px solid #FFF;
+  margin: 10px auto;
+}
+.five
+{
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid  #FFF;
+  border-top: 30px solid #FFF;
+  border-right: 30px solid #FFF;
+  border-bottom: 30px solid green;
+  margin: 10px auto;
+}
+.six
+{
+  width: 0px;
+  height: 0px;
+  border-left: 21px solid  red;
+  border-top: 21px solid #FFF;
+  border-right: 21px solid #FFF;
+  border-bottom: 21px solid red;
+  margin: 20px auto;
+}
+.seven
+{
+  width: 0px;
+  height: 0px;
+  border-left: 21px solid  #FFF;
+  border-top: 21px solid #FFF;
+  border-right: 21px solid green;
+  border-bottom: 21px solid green;
+  margin: 20px auto;
+}

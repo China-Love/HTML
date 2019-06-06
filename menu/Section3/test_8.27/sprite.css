@@ -1,0 +1,31 @@
+
+div
+{
+    background-image: url("img/css_sprites.png");
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 52px;
+}
+span
+{
+   width: 52px;
+   height: 16px;
+   display: inline-block;
+   text-align: center;
+}
+.one
+{
+    background-position: 0px 0px;  
+}
+.two
+{
+    background-position: -52px 0px;  
+}
+.three
+{
+    background-position: 0px -52px;
+}
+.four
+{
+    background-position: -52px -52px;
+}

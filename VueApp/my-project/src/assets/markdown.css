@@ -1,0 +1,71 @@
+.topic_content >>> img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.topic_content >>> p{
+    white-space: pre-wrap;
+    font-size: 15px;
+    line-height: 1.7em;
+    overflow: auto;
+    margin: 1em 0;
+    word-break: break-word;
+}
+.topic_content >>> h2 {
+    font-size: 26px;
+    margin: 30px 0 15px;
+    border-bottom: 1px solid #eee;
+    line-height: 40px;
+    padding:  0 0 15px 0;
+    font-family: inherit;
+    font-weight: 700;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+.topic_content >>> h3 {
+    line-height: 40px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+.topic_content >>> a {
+    color: #08c;
+}
+.topic_content >>> ul {
+    margin-left: 20px;
+}
+.topic_content >>> ol {
+    margin-left: 20px;
+}
+.topic_content >>> code
+{
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    display: block;
+}
+.topic_content >>> pre
+{
+
+    font-size: 12px;
+    border-radius: 0;
+    padding: 0 15px;
+    border: none;
+    margin: 20px -10px;
+    border-width: 1px 0;
+    background: #f7f7f7;
+    -o-tab-size: 4;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    line-height: 22px;
+    display: block;
+
+}
+

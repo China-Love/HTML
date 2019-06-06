@@ -1,0 +1,14 @@
+.leftDiv
+{
+  background-color: red;
+  width: 200px;
+  height: 300px;;
+}
+.rightDiv
+{
+  float: left;
+  margin-left: 210px;
+  width: 100%;
+  background-color: blue;
+  height: 500px;
+}
