@@ -265,7 +265,7 @@ html {
     display: block;
     width: 40px;
     height: 40px;
-    background: url("../logo/logo-react.png") 50% 50% no-repeat;
+    /* background: url("../logo/logo-react.png") 50% 50% no-repeat; */
     background-size: 22px;
   }
   
@@ -464,7 +464,7 @@ html {
   }
   
   .pp-tableCell .tag-panel {
-    margin: 15px auto;
+    margin: 30px auto;
   }
   
   .tag-panel .tag {
@@ -483,6 +483,20 @@ html {
   .tag-panel .tag.familiar {
     opacity: 0.5;
   }
+
+  .box-wrap {
+    text-align: center;
+    overflow: hidden; 
+ }
+
+  .box-wrap>div {
+      width: 31%;
+      height: 20px;
+      margin: 1%;
+      float: left;
+      text-align: center;
+  }
+
   
   @media screen and (max-width: 414px) {
     .cbp_tmtimeline > li .cbp_tmlabel {
