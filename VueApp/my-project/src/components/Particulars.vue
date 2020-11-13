@@ -49,8 +49,8 @@ export default {
      methods:{
          getParticularsdata:function(){
              var self = this;
-             console.log(`https://cnodejs.org/api/v1/topic/${this.$route.params.id}`)
-             this.$http.get(`https://cnodejs.org/api/v1/topic/${this.$route.params.id}`)
+             console.log(`http://mock.hunger-valley.com/cnode/api/v1/topic/${this.$route.params.id}`)
+             this.$http.get(`http://mock.hunger-valley.com/cnode/api/v1/topic/${this.$route.params.id}`)
              .then(function(res){
                  
                 console.log(res.data.data);

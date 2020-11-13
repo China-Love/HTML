@@ -56,8 +56,8 @@ export default {
        
         getuserinfodata:function(){
             var self = this;
-            console.log(`https://cnodejs.org/api/v1/user/${this.$route.params.loginname}`)
-            this.$http.get(`https://cnodejs.org/api/v1/user/${this.$route.params.loginname}`)
+            console.log(`http://mock.hunger-valley.com/cnode/api/v1/user/${this.$route.params.loginname}`)
+            this.$http.get(`http://mock.hunger-valley.com/cnode/api/v1/user/${this.$route.params.loginname}`)
             .then(function(res){
               console.log(res);
               self.requestdata=res.data.data;

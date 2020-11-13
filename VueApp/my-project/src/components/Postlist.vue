@@ -38,7 +38,7 @@ export default {
     methods:{
     getlistdata:function(){
           var self = this;
-          this.$http.get('https://cnodejs.org/api/v1/topics',{params:{
+          this.$http.get('http://mock.hunger-valley.com/cnode/api/v1/topics',{params:{
                 page:this.pageindex,
                 tab:this.toptab,
           }})
