@@ -1,6 +1,6 @@
 # vueapp
 
-> demo
+> demo https://china-love.github.io/HTML/VueApp/cnode/index.html#/
 
 ## Build Setup
 
